@@ -1,4 +1,32 @@
+# robots.txt — Travel Tips with Haris Shahid
+# Allow all standard + AI crawlers (for Google AI Overviews, ChatGPT, Perplexity, Claude citations)
+
 User-agent: *
 Allow: /
 
-Sitemap: https://harisshahid.com/sitemap.xml
+# AI / answer-engine crawlers (explicitly allowed for AEO visibility)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.harisshahid.com/sitemap.xml
